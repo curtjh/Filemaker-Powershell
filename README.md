@@ -9,9 +9,13 @@ Example uses:
 . '\\path\to\fmq.ps1'
 
 $fm = [fmq]::New('People','my_people')
+
 $fm.AddParam('First_Name','John')
+
 $fm.AddParam('Last_Name','Doe')
+
 $results = $fm.sendRequest("find")
+
 
 the $results will be an array of records that each contain all of the fields and values that were on the 'my_people' layout for 
 So you could then access and display them in a number of ways, but here is one:
