@@ -5,7 +5,9 @@ Use this Powershell Class to Query Filemaker Databases:
 Requirements:
 
 At least powershell v5
+
 Filemaker Server 14 or above
+
 XML Web Publishing enabled on your server
 
 Example uses:
